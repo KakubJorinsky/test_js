@@ -1,0 +1,52 @@
+body{
+    margin: 20px;
+    background-color: rgb(211, 211, 211);
+}
+
+.tabulka{
+    background-color: white;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 5px;
+    box-shadow: 1px 1px 7px;
+    border-radius: 5px;
+}
+
+#vstup_uzivatele{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+#vstup_uzivatele button{
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    border: none;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+}
+
+#vstup_uzivatele input{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+
+#vstup_uzivatele h4{
+    color: rgb(0, 110, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+#text{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
